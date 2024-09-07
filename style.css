@@ -10,28 +10,57 @@
     --font1: 'Sriracha';
     --font2: 'Passion One';
 }
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
 header{
     text-align: center;
     background-color: black;
     color: white;
-    height: 200px;
+
 }
-h1{
-    padding-top: 70px;
+header > h1{
+    padding-top: 50px;
     font-family: var(--font2);
+    font-variant: small-caps;
 }
 header > p{
     font-family: var(--font2);
     font-weight: lighter;
+    padding-bottom: 50px;
 }
-header > p > a{
+a{
     text-decoration: none;
     color: white;
+    font-weight: bolder;
 }
-article{
+a:hover{
+    text-decoration: underline;
+}
+
+section , article{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+.normal{
+    background-color: white;
+    color: black;
     font-family: var(--font1);
 }
-#flor{
+.imagem{
+    background-color: aqua;
+    color: white;
+}
+
+.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.425);
+}
+/* #flor{
     height: 500px;
     background-size: contain;
     background-image: url(imagens/background001.jpg);
@@ -39,5 +68,26 @@ article{
 }
 #flor > article > p{
     color: white;
-    background-color: rgba(0, 0, 0, 0.425);
+   
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
