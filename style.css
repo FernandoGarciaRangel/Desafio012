@@ -9,6 +9,7 @@
 :root{
     --font1: 'Sriracha';
     --font2: 'Passion One';
+    --font3: 'Verdana, Geneva, Tahoma, sans-serif';
 }
 
 html, body{
@@ -25,6 +26,7 @@ header > h1{
     padding-top: 50px;
     font-family: var(--font2);
     font-variant: small-caps;
+    font-size: 10vw;
 }
 header > p{
     font-family: var(--font2);
@@ -45,6 +47,7 @@ section , article{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3vw;
 }
 .normal{
     background-color: white;
@@ -57,7 +60,8 @@ section , article{
 }
 
 .imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.425);
 }
 /* #flor{
